@@ -4,7 +4,7 @@ import json
 
 from math import sin, cos, sqrt, atan2, radians
 
-radius = 3958.8 # radius of the erf in miles
+radius = 3958.8  # radius of the erf in miles
 
 # Tesla factory coordinates in Fremont, CA
 tesla_lat = radians(37.493530)
@@ -44,6 +44,7 @@ def main():
     args = parser.parse_args()
 
     print(get_factory_dist(args.state, args.city))
+
 
 if __name__ == "__main__":
     main()
