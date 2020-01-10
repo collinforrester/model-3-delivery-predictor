@@ -1,4 +1,4 @@
-import argparse as argparse
+import argparse
 import urllib.request
 import json
 
